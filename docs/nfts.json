@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "title": "NFT Gallery",
+    "tagline": "Curated digital collectibles — handpicked works on-chain & off-chain",
+    "version": "1.0.0",
+    "last_updated": "2026-06-30"
+  },
+  "nfts": [
+    {
+      "id": "cosmic-ape-001",
+      "name": "Cosmic Ape #001",
+      "image": "https://picsum.photos/seed/cosmicape001/800/800",
+      "collection": "Cosmic Apes",
+      "description": "Genesis piece from the Cosmic Apes collection. A celestial primate forged in the heart of a dying star.",
+      "external_link": "https://opensea.io/assets/ethereum/0x0000000000000000000000000000000000000000/1",
+      "attributes": [
+        {"trait_type": "Background", "value": "Nebula"},
+        {"trait_type": "Fur", "value": "Gold"},
+        {"trait_type": "Eyes", "value": "Laser"},
+        {"trait_type": "Rarity", "value": "Legendary"}
+      ]
+    },
+    {
+      "id": "pixel-punk-2049",
+      "name": "Pixel Punk #2049",
+      "image": "https://picsum.photos/seed/pixelpunk2049/800/800",
+      "collection": "Neo Punks",
+      "description": "24x24 pixel rebellion. Minted in 2024, never sold, never forgotten.",
+      "external_link": "https://opensea.io/assets/ethereum/0x0000000000000000000000000000000000000000/2049",
+      "attributes": [
+        {"trait_type": "Background", "value": "Grid"},
+        {"trait_type": "Hat", "value": "Mohawk"},
+        {"trait_type": "Eyes", "value": "VR"},
+        {"trait_type": "Rarity", "value": "Rare"}
+      ]
+    },
+    {
+      "id": "ethereal-glow-007",
+      "name": "Ethereal Glow #007",
+      "image": "https://picsum.photos/seed/etherealglow007/800/800",
+      "collection": "Ethereal Series",
+      "description": "Generative art piece exploring the boundary between light and matter.",
+      "external_link": "https://opensea.io/assets/ethereum/0x0000000000000000000000000000000000000000/7",
+      "attributes": [
+        {"trait_type": "Palette", "value": "Aurora"},
+        {"trait_type": "Motion", "value": "Static"},
+        {"trait_type": "Era", "value": "Genesis"},
+        {"trait_type": "Rarity", "value": "Epic"}
+      ]
+    },
+    {
+      "id": "cyber-kitten-042",
+      "name": "Cyber Kitten #042",
+      "image": "https://picsum.photos/seed/cyberkitten042/800/800",
+      "collection": "Cyber Cats",
+      "description": "Whiskers made of fiber-optic cable. Purrs at 60Hz. Boots in 0.3s.",
+      "external_link": "https://opensea.io/assets/ethereum/0x0000000000000000000000000000000000000000/42",
+      "attributes": [
+        {"trait_type": "Background", "value": "Neon City"},
+        {"trait_type": "Cybernetic", "value": "Full Augmetic"},
+        {"trait_type": "Tail", "value": "USB-C"},
+        {"trait_type": "Rarity", "value": "Mythic"}
+      ]
+    },
+    {
+      "id": "deep-sea-relic-013",
+      "name": "Deep Sea Relic #013",
+      "image": "https://picsum.photos/seed/deepsearelic013/800/800",
+      "collection": "Abyssal Relics",
+      "description": "Recovered from Mariana Trench mining operation. Surface oxidizes in 24 hours.",
+      "external_link": "https://opensea.io/assets/ethereum/0x0000000000000000000000000000000000000000/13",
+      "attributes": [
+        {"trait_type": "Origin", "value": "Mariana"},
+        {"trait_type": "Material", "value": "Coralite"},
+        {"trait_type": "State", "value": "Pristine"},
+        {"trait_type": "Rarity", "value": "Legendary"}
+      ]
+    },
+    {
+      "id": "frost-byte-128",
+      "name": "Frost Byte #128",
+      "image": "https://picsum.photos/seed/frostbyte128/800/800",
+      "collection": "Climate Artifacts",
+      "description": "Frozen code from a 2042 server farm. Thaws when held.",
+      "external_link": "https://opensea.io/assets/ethereum/0x0000000000000000000000000000000000000000/128",
+      "attributes": [
+        {"trait_type": "Temp", "value": "-40C"},
+        {"trait_type": "Encoding", "value": "Ice-9"},
+        {"trait_type": "Status", "value": "Thawing"},
+        {"trait_type": "Rarity", "value": "Rare"}
+      ]
+    },
+    {
+      "id": "voxel-dragon-077",
+      "name": "Voxel Dragon #077",
+      "image": "https://picsum.photos/seed/voxeldragon077/800/800",
+      "collection": "Voxel Beasts",
+      "description": "Three-dimensional beast from the Voxel Beasts Genesis drop.",
+      "external_link": "https://opensea.io/assets/ethereum/0x0000000000000000000000000000000000000000/77",
+      "attributes": [
+        {"trait_type": "Element", "value": "Void"},
+        {"trait_type": "Stage", "value": "Hatchling"},
+        {"trait_type": "Wings", "value": "Pixel"},
+        {"trait_type": "Rarity", "value": "Epic"}
+      ]
+    },
+    {
+      "id": "monochrome-dream-099",
+      "name": "Monochrome Dream #099",
+      "image": "https://picsum.photos/seed/monochromedream099/800/800",
+      "collection": "Monochrome Dreams",
+      "description": "Algorithmic ink wash on a virtual rice paper. Single brush, infinite variations.",
+      "external_link": "https://opensea.io/assets/ethereum/0x0000000000000000000000000000000000000000/99",
+      "attributes": [
+        {"trait_type": "Tone", "value": "Sumi"},
+        {"trait_type": "Composition", "value": "Asymmetric"},
+        {"trait_type": "Stroke", "value": "Single"},
+        {"trait_type": "Rarity", "value": "Mythic"}
+      ]
+    }
+  ]
+}

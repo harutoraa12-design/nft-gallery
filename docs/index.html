@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NFT Gallery</title>
+  <meta name="description" content="Curated digital collectibles — handpicked works on-chain & off-chain." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-mark">◈</div>
+        <div>
+          <h1 id="gallery-title">NFT Gallery</h1>
+          <p class="tagline" id="gallery-tagline">Curated digital collectibles</p>
+        </div>
+      </div>
+      <div class="stats" id="stats">
+        <div class="stat"><span class="stat-num" id="stat-total">0</span><span class="stat-label">NFTs</span></div>
+        <div class="stat"><span class="stat-num" id="stat-collections">0</span><span class="stat-label">Collections</span></div>
+        <div class="stat"><span class="stat-num" id="stat-traits">0</span><span class="stat-label">Unique traits</span></div>
+      </div>
+    </div>
+  </header>
+
+  <section class="toolbar">
+    <div class="toolbar-inner">
+      <input
+        type="search"
+        id="search"
+        placeholder="Search by name, collection, or trait..."
+        autocomplete="off"
+      />
+      <select id="collection-filter">
+        <option value="">All collections</option>
+      </select>
+      <select id="rarity-filter">
+        <option value="">All rarities</option>
+      </select>
+      <button id="reset-btn" class="ghost-btn">Reset</button>
+    </div>
+    <p class="result-count" id="result-count"></p>
+  </section>
+
+  <main>
+    <div class="grid" id="grid"></div>
+    <p class="empty" id="empty" hidden>No NFTs match your filters.</p>
+  </main>
+
+  <!-- Modal -->
+  <div class="modal" id="modal" hidden aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-card" id="modal-card">
+      <button class="modal-close" id="modal-close" aria-label="Close">&times;</button>
+      <div class="modal-image-wrap">
+        <img id="modal-image" alt="" />
+      </div>
+      <div class="modal-body">
+        <p class="modal-collection" id="modal-collection"></p>
+        <h2 id="modal-name"></h2>
+        <p class="modal-desc" id="modal-desc"></p>
+        <div class="modal-attrs" id="modal-attrs"></div>
+        <a id="modal-link" class="primary-btn" target="_blank" rel="noopener" hidden>
+          View on-chain ↗
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>
+      Last updated <span id="last-updated">—</span> ·
+      <a href="https://github.com/harutoraa12-design/nft-gallery">Source</a>
+    </p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
